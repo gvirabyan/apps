@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "737802038299",
+    "project_id": "mntom-new",
+    "storage_bucket": "mntom-new.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737802038299:android:aabfb3a7620ae2a22e1cbe",
+        "android_client_info": {
+          "package_name": "com.deliveryboy.multivendor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8jOuoBpAfr-TM0TFZf-u-ZSPrYTbwglI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737802038299:android:103da2d453aa4d602e1cbe",
+        "android_client_info": {
+          "package_name": "eShop.multivendor.customer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8jOuoBpAfr-TM0TFZf-u-ZSPrYTbwglI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737802038299:android:ad943a010ee0f0582e1cbe",
+        "android_client_info": {
+          "package_name": "wrteam.seller.multivendor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8jOuoBpAfr-TM0TFZf-u-ZSPrYTbwglI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,134 @@
+{
+  "project_info": {
+    "project_number": "737802038299",
+    "project_id": "mntom-new",
+    "storage_bucket": "mntom-new.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737802038299:android:aabfb3a7620ae2a22e1cbe",
+        "android_client_info": {
+          "package_name": "com.deliveryboy.multivendor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "737802038299-plmn8p5fil9jgj8rehve7g9k0f53kg0n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8jOuoBpAfr-TM0TFZf-u-ZSPrYTbwglI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "737802038299-plmn8p5fil9jgj8rehve7g9k0f53kg0n.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "737802038299-69der37vuu8e9qs5hupmf6er453vknc5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.deliveryboy.multivendor"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737802038299:android:0a3a0afd62d1c29b2e1cbe",
+        "android_client_info": {
+          "package_name": "com.turki.mntom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "737802038299-bctkv44lnrboqs3e1f9ga8jkt2ijog4b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.turki.mntom",
+            "certificate_hash": "4cbcabb42863750f9fa7e51117250683098e4e2e"
+          }
+        },
+        {
+          "client_id": "737802038299-uuavjl48i754cegus186iegkaruk20q6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.turki.mntom",
+            "certificate_hash": "3cf481e9c915e22a1ffa234e03b274d9457b482b"
+          }
+        },
+        {
+          "client_id": "737802038299-plmn8p5fil9jgj8rehve7g9k0f53kg0n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8jOuoBpAfr-TM0TFZf-u-ZSPrYTbwglI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "737802038299-plmn8p5fil9jgj8rehve7g9k0f53kg0n.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "737802038299-69der37vuu8e9qs5hupmf6er453vknc5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.deliveryboy.multivendor"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737802038299:android:ad943a010ee0f0582e1cbe",
+        "android_client_info": {
+          "package_name": "wrteam.seller.multivendor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "737802038299-plmn8p5fil9jgj8rehve7g9k0f53kg0n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8jOuoBpAfr-TM0TFZf-u-ZSPrYTbwglI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "737802038299-plmn8p5fil9jgj8rehve7g9k0f53kg0n.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "737802038299-69der37vuu8e9qs5hupmf6er453vknc5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.deliveryboy.multivendor"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
