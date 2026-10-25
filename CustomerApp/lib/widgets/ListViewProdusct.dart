@@ -408,9 +408,7 @@ class _ListIteamListWidgetState extends State<ListIteamListWidget> {
                                     placeHolderSize: 110,
                                   ),
                                   Positioned.fill(
-                                    child:
-                                        model.prVarientList![0].availability ==
-                                            '0'
+                                    child: model.isOutOfStock
                                         ? Container(
                                             height: 55,
                                             color: colors.white70,

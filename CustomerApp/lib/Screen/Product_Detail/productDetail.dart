@@ -3133,7 +3133,7 @@ class StateItem extends State<ProductDetail> with TickerProviderStateMixin {
   Widget _buildPriceSection() {
     if (loading) return const SizedBox.shrink();
 
-    return widget.model!.availability != '0'
+    return !widget.model!.isOutOfStock
         ? GetPrice(
             pos: selectedProductVariantIndex,
             from: true,

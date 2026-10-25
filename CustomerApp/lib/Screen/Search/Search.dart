@@ -510,7 +510,9 @@ class _SearchState extends State<Search> with TickerProviderStateMixin {
                                 : const SizedBox(),
                             Row(
                               children: [
-                                model.availability == '0'
+                                model.prVarientList![model.selVarient!]
+                                            .availability ==
+                                        '0'
                                     ? const SizedBox()
                                     : cartBtnList
                                         ? Row(
@@ -705,8 +707,7 @@ class _SearchState extends State<Search> with TickerProviderStateMixin {
                   )
                 ],
               ),
-              context.read<SearchProvider>().productList[index].availability ==
-                      '0'
+              context.read<SearchProvider>().productList[index].isOutOfStock
                   ? Text('OUT_OF_STOCK_LBL'.translate(context: context),
                       style: Theme.of(context).textTheme.titleSmall!.copyWith(
                           color: Colors.red, fontWeight: FontWeight.bold))

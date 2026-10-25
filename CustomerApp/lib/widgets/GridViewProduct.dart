@@ -391,7 +391,7 @@ class _GridViewProductListWidgetState extends State<GridViewProductListWidget> {
           ),
         ),
         // Out of stock overlay - covers entire image
-        if (product.prVarientList![0].availability == '0')
+        if (product.isOutOfStock)
           Positioned.fill(
             child: Container(
               decoration: BoxDecoration(

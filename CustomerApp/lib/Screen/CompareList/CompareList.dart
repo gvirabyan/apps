@@ -139,7 +139,8 @@ class _CompareListState extends State<CompareList> {
                   alignment: Alignment.center,
                   children: [
                     getImagePart(model.image!, index, model.id, context),
-                    OutOffStockLableWidget(availability: model.availability!),
+                    OutOffStockLableWidget(
+                        availability: model.isOutOfStock ? '0' : '1'),
                   ],
                 ),
                 getRattingIcons(context, model.rating),

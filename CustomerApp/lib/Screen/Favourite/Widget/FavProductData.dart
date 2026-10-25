@@ -512,7 +512,7 @@ class _FavProductDataState extends State<FavProductData> {
               imageurlString: widget.favList[widget.index!].image!,
             ),
             Positioned.fill(
-              child: widget.favList[widget.index!].availability == '0'
+              child: widget.favList[widget.index!].isOutOfStock
                   ? Container(
                       height: 55,
                       color: colors.white70,

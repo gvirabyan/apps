@@ -82,7 +82,7 @@ class SingleProductContainer extends StatelessWidget {
                               imageurlString: productDetails.image!,
                             ),
                             Positioned.fill(
-                              child: productDetails.availability == '0'
+                              child: productDetails.isOutOfStock
                                   ? Container(
                                       height: 55,
                                       color: colors.white70,

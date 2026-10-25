@@ -443,6 +443,17 @@ class Product {
 
     return parsedJson.map((data) => Product.fromCat(data)).toList();
   }
+
+  /// Variable products with stock management (product / variant level) are
+  /// out of stock only when every variant is out of stock.
+  bool get isOutOfStock {
+    if ((stockType == '1' || stockType == '2') &&
+        prVarientList != null &&
+        prVarientList!.isNotEmpty) {
+      return prVarientList!.every((v) => v.availability == '0');
+    }
+    return availability == '0';
+  }
 }
 
 class Product_Varient {

@@ -496,7 +496,7 @@ class _GridViewWidgetState extends State<GridViewWidget> {
                           ),
                         ),
                         Positioned.fill(
-                          child: model.prVarientList![0].availability == '0'
+                          child: model.isOutOfStock
                               ? Container(
                                   height: 55,
                                   color: colors.white70,
